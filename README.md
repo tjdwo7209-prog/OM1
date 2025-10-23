@@ -28,7 +28,9 @@ You will need the [`uv` package manager](https://docs.astral.sh/uv/getting-start
 You will need the Python3.10 (above 3.10 version)
 
 For Ubuntu
-```sudo apt install python3.10
+```bash
+sudo apt install python3.10
+```
 
 
 ### Clone the Repo
