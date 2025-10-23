@@ -23,6 +23,14 @@ To get started with OM1, let's run the Spot agent. Spot uses your webcam to capt
 
 You will need the [`uv` package manager](https://docs.astral.sh/uv/getting-started/installation/).
 
+### Python above 3.10 version
+
+You will need the Python3.10 (above 3.10 version)
+
+For Ubuntu
+```sudo apt install python3.10
+
+
 ### Clone the Repo
 
 ```bash
@@ -47,7 +55,7 @@ sudo apt-get install portaudio19-dev python-dev ffmpeg
 
 ### Obtain an OpenMind API Key
 
-Obtain your API Key at [OpenMind Portal](https://portal.openmind.org/). Copy it to `config/spot.json5`, replacing the `openmind_free` placeholder. Or, `cp env.example.env` and add your key to the `.env`. 
+Obtain your API Key at [OpenMind Portal](https://portal.openmind.org/). Copy it to `config/spot.json5`, replacing the `openmind_free` placeholder. Or, `cp env.example .env` and add your key to the `.env`. 
 
 ### Launching OM1
 
